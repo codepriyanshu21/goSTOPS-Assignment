@@ -71,6 +71,7 @@ const App = () => {
             <PriceSection 
               onRoomAdd={handleAddRoom}
               cartItems={cartItems}
+              onUpdateQuantity={handleUpdateQuantity}
             />
           </div>
           <div className='mt-24'>
