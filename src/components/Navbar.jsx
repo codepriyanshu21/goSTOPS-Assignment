@@ -87,7 +87,7 @@ const Navbar = () => {
       </div>
 
       {/* Nav Links */}
-      <ul className="flex space-x-6">
+      <ul className="hidden lg:flex space-x-6 ">
         <li className="hover:text-yellow-300 cursor-pointer">Destinations</li>
         <li className="hover:text-yellow-300 cursor-pointer">Workation</li>
         <li className="hover:text-yellow-300 cursor-pointer">Coliving</li>
@@ -96,11 +96,11 @@ const Navbar = () => {
       </ul>
 
       {/* Buttons */}
-      <div className="flex space-x-4">
-        <button className="bg-white text-gray-800 px-4 py-1 rounded-2xl shadow hover:bg-gray-200">
+      <div className="flex space-x-2 md:space-x-4">
+        <button className="bg-white text-gray-800 text-sm md:text-base px-3 py-1 md:px-4 md:py-1.5 rounded-2xl shadow hover:bg-gray-200">
           Download App
         </button>
-        <button className="bg-pink-500 px-4 py-1 rounded-2xl shadow hover:bg-pink-600">
+        <button className="bg-pink-500 text-sm md:text-base px-3 py-1 md:px-4 md:py-1.5 rounded-2xl shadow hover:bg-pink-600">
           Login
         </button>
       </div>
